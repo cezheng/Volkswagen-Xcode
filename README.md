@@ -53,13 +53,14 @@ Pure Objective-C projects using Cocoapods should have lower requirements since t
 ### Manually include the source
 - I have tested this yet, but this should work with almost all versions of OS in recent years
 
+> Currently using `Volkswagen-Xcode` on iOS has some problems detecting the enviroment variables from the outside shell. I'm working to resolve this problem.
 
 #Installation
 ##CocoaPods
 You can use [Cocoapods](http://cocoapods.org/) to install `Volkswagen-Xcode` by adding it to your to your `Podfile`:
 
 ```ruby
-platform :ios, '8.0'
+platform :osx, '10.9'
 use_frameworks!
 
 target 'MyTestTarget' do
