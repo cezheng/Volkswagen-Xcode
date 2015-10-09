@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../Volkswagen.xcodeproj">
+      location = "group:Volkswagen.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../VolkswagenDemo/VolkswagenDemo.xcodeproj">
+      location = "group:VolkswagenDemo/VolkswagenDemo.xcodeproj">
    </FileRef>
 </Workspace>
