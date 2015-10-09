@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "79AF259E1BC7E5100093270C"
                BuildableName = "Volkswagen.framework"
-               BlueprintName = "VolksWagen-iOS"
+               BlueprintName = "Volkswagen-iOS"
                ReferencedContainer = "container:Volkswagen.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "79AF25A71BC7E5100093270C"
-               BuildableName = "VolksWagen-iOSTests.xctest"
-               BlueprintName = "VolksWagen-iOSTests"
+               BuildableName = "Volkswagen-iOSTests.xctest"
+               BlueprintName = "Volkswagen-iOSTests"
                ReferencedContainer = "container:Volkswagen.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,8 +47,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "79AF25A71BC7E5100093270C"
-               BuildableName = "VolksWagen-iOSTests.xctest"
-               BlueprintName = "VolksWagen-iOSTests"
+               BuildableName = "Volkswagen-iOSTests.xctest"
+               BlueprintName = "Volkswagen-iOSTests"
                ReferencedContainer = "container:Volkswagen.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -58,7 +58,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "79AF259E1BC7E5100093270C"
             BuildableName = "Volkswagen.framework"
-            BlueprintName = "VolksWagen-iOS"
+            BlueprintName = "Volkswagen-iOS"
             ReferencedContainer = "container:Volkswagen.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -80,7 +80,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "79AF259E1BC7E5100093270C"
             BuildableName = "Volkswagen.framework"
-            BlueprintName = "VolksWagen-iOS"
+            BlueprintName = "Volkswagen-iOS"
             ReferencedContainer = "container:Volkswagen.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -98,7 +98,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "79AF259E1BC7E5100093270C"
             BuildableName = "Volkswagen.framework"
-            BlueprintName = "VolksWagen-iOS"
+            BlueprintName = "Volkswagen-iOS"
             ReferencedContainer = "container:Volkswagen.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

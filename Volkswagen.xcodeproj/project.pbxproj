@@ -46,7 +46,7 @@
 		79AF254A1BC7CA330093270C /* NSException+Volkswagen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+Volkswagen.m"; sourceTree = "<group>"; };
 		79AF25621BC7DF9B0093270C /* SwiftVolkswagenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftVolkswagenTests.swift; sourceTree = "<group>"; };
 		79AF259F1BC7E5100093270C /* Volkswagen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Volkswagen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79AF25A81BC7E5100093270C /* VolksWagen-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VolksWagen-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AF25A81BC7E5100093270C /* Volkswagen-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Volkswagen-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 				79AF252F1BC7C6810093270C /* Volkswagen.framework */,
 				79AF25391BC7C6810093270C /* Volkswagen-OSXTests.xctest */,
 				79AF259F1BC7E5100093270C /* Volkswagen.framework */,
-				79AF25A81BC7E5100093270C /* VolksWagen-iOSTests.xctest */,
+				79AF25A81BC7E5100093270C /* Volkswagen-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,9 +181,9 @@
 			productReference = 79AF25391BC7C6810093270C /* Volkswagen-OSXTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		79AF259E1BC7E5100093270C /* VolksWagen-iOS */ = {
+		79AF259E1BC7E5100093270C /* Volkswagen-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79AF25B01BC7E5100093270C /* Build configuration list for PBXNativeTarget "VolksWagen-iOS" */;
+			buildConfigurationList = 79AF25B01BC7E5100093270C /* Build configuration list for PBXNativeTarget "Volkswagen-iOS" */;
 			buildPhases = (
 				79AF259A1BC7E5100093270C /* Sources */,
 				79AF259B1BC7E5100093270C /* Frameworks */,
@@ -194,14 +194,14 @@
 			);
 			dependencies = (
 			);
-			name = "VolksWagen-iOS";
+			name = "Volkswagen-iOS";
 			productName = "VolksWagen-iOS";
 			productReference = 79AF259F1BC7E5100093270C /* Volkswagen.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		79AF25A71BC7E5100093270C /* VolksWagen-iOSTests */ = {
+		79AF25A71BC7E5100093270C /* Volkswagen-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79AF25B31BC7E5100093270C /* Build configuration list for PBXNativeTarget "VolksWagen-iOSTests" */;
+			buildConfigurationList = 79AF25B31BC7E5100093270C /* Build configuration list for PBXNativeTarget "Volkswagen-iOSTests" */;
 			buildPhases = (
 				79AF25A41BC7E5100093270C /* Sources */,
 				79AF25A51BC7E5100093270C /* Frameworks */,
@@ -212,9 +212,9 @@
 			dependencies = (
 				79AF25AB1BC7E5100093270C /* PBXTargetDependency */,
 			);
-			name = "VolksWagen-iOSTests";
+			name = "Volkswagen-iOSTests";
 			productName = "VolksWagen-iOSTests";
-			productReference = 79AF25A81BC7E5100093270C /* VolksWagen-iOSTests.xctest */;
+			productReference = 79AF25A81BC7E5100093270C /* Volkswagen-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -255,8 +255,8 @@
 			targets = (
 				79AF252E1BC7C6810093270C /* Volkswagen-OSX */,
 				79AF25381BC7C6810093270C /* Volkswagen-OSXTests */,
-				79AF259E1BC7E5100093270C /* VolksWagen-iOS */,
-				79AF25A71BC7E5100093270C /* VolksWagen-iOSTests */,
+				79AF259E1BC7E5100093270C /* Volkswagen-iOS */,
+				79AF25A71BC7E5100093270C /* Volkswagen-iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -337,7 +337,7 @@
 		};
 		79AF25AB1BC7E5100093270C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 79AF259E1BC7E5100093270C /* VolksWagen-iOS */;
+			target = 79AF259E1BC7E5100093270C /* Volkswagen-iOS */;
 			targetProxy = 79AF25AA1BC7E5100093270C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -587,21 +587,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79AF25B01BC7E5100093270C /* Build configuration list for PBXNativeTarget "VolksWagen-iOS" */ = {
+		79AF25B01BC7E5100093270C /* Build configuration list for PBXNativeTarget "Volkswagen-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79AF25B11BC7E5100093270C /* Debug */,
 				79AF25B21BC7E5100093270C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		79AF25B31BC7E5100093270C /* Build configuration list for PBXNativeTarget "VolksWagen-iOSTests" */ = {
+		79AF25B31BC7E5100093270C /* Build configuration list for PBXNativeTarget "Volkswagen-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79AF25B41BC7E5100093270C /* Debug */,
 				79AF25B51BC7E5100093270C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
