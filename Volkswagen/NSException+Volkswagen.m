@@ -25,6 +25,16 @@
 @interface NSException (Volkswagen)
 @end
 
+#if TARGET_IPHONE_SIMULATOR
+static BOOL is_in_ci() {
+  NSString *tmpDir = @(getenv("TMPDIR"));
+  // Travis CI
+  if ([tmpDir hasPrefix:@"/Users/travis"]) {
+    return true;
+  }
+  return false;
+}
+#else
 static BOOL is_in_ci() {
   return getenv("CI")
   || getenv("CONTINUOUS_INTEGRATION")
@@ -40,9 +50,10 @@ static BOOL is_in_ci() {
   || getenv("GOCD_SERVER_HOST")
   || getenv("BUILDKITE");
 }
+#endif
 
 static void do_nothing() {
-
+  
 }
 
 @implementation NSException (Volkswagen)
@@ -67,4 +78,3 @@ static void do_nothing() {
 }
 
 @end
-

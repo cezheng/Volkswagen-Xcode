@@ -1,4 +1,5 @@
 #Volkswagen for Xcode
+[![Build Status](https://travis-ci.org/cezheng/Volkswagen-Xcode.svg)](https://travis-ci.org/cezheng/Volkswagen-Xcode)
 Volkswagen for Xcode makes failing test cases pass in CI servers.
 
 This project is inspired by [volkswagen
@@ -53,7 +54,7 @@ Pure Objective-C projects using Cocoapods should have lower requirements since t
 ### Manually include the source
 - I have tested this yet, but this should work with almost all versions of OS in recent years
 
-> Currently using `Volkswagen-Xcode` on iOS has some problems detecting the enviroment variables from the outside shell. I'm working to resolve this problem.
+> Currently using `Volkswagen-Xcode` on iOS only supports Travis CI. More CI environment detection is yet to come. Keep an eye on this [issue](https://github.com/cezheng/Volkswagen-Xcode/issues/1).
 
 #Installation
 ##CocoaPods
