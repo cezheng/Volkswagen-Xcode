@@ -1,5 +1,13 @@
 #Volkswagen for Xcode
 [![Build Status](https://travis-ci.org/cezheng/Volkswagen-Xcode.svg)](https://travis-ci.org/cezheng/Volkswagen-Xcode)
+
+[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/Volkswagen.svg)](https://cocoapods.org/pods/Volkswagen)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Platform](https://img.shields.io/cocoapods/p/Volkswagen.svg?style=flat)](https://github.com/cezheng/Volkswagen-Xcode)
+
+[![Twitter](https://img.shields.io/badge/twitter-@AdamoCheng-blue.svg?style=flat)](http://twitter.com/AdamoCheng)
+[![Weibo](https://img.shields.io/badge/Weibo-@Real_Adam-blue.svg?style=flat)](http://weibo.com/cezheng)
+
 Volkswagen for Xcode makes failing test cases pass in CI servers.
 
 This project is inspired by [volkswagen
@@ -54,7 +62,7 @@ Pure Objective-C projects using Cocoapods should have lower requirements since t
 ### Manually include the source
 - I have tested this yet, but this should work with almost all versions of OS in recent years
 
-> Currently using `Volkswagen-Xcode` on iOS only supports Travis CI. More CI environment detection is yet to come. Keep an eye on this [issue](https://github.com/cezheng/Volkswagen-Xcode/issues/1).
+> Currently using `Volkswagen-Xcode` on iOS/tvOS only supports Travis CI. More CI environment detection is yet to come. Keep an eye on this [issue](https://github.com/cezheng/Volkswagen-Xcode/issues/1).
 
 #Installation
 ##CocoaPods
@@ -65,7 +73,7 @@ platform :osx, '10.9'
 use_frameworks!
 
 target 'MyTestTarget' do
-	pod 'Volkswagen', '~> 0.1.0'
+	pod 'Volkswagen', '~> 0.2.0'
 end
 ```
 
@@ -79,7 +87,7 @@ $ pod install
 Adding the following line to your `Cartfile.private`:
 
 ```
-github "cezheng/Volkswagen" ~> 0.1.0
+github "cezheng/Volkswagen" ~> 0.2.0
 ```
 Run the following command:
 
