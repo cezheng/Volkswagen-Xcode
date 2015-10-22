@@ -25,7 +25,7 @@
 @interface NSException (Volkswagen)
 @end
 
-#if TARGET_IPHONE_SIMULATOR
+#if TARGET_OS_SIMULATOR
 static BOOL is_in_ci() {
   NSString *tmpDir = @(getenv("TMPDIR"));
   // Travis CI
