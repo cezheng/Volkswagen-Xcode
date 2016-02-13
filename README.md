@@ -1,7 +1,7 @@
 #Volkswagen for Xcode
 [![Build Status](https://travis-ci.org/cezheng/Volkswagen-Xcode.svg)](https://travis-ci.org/cezheng/Volkswagen-Xcode)
 
-[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/Volkswagen.svg)](https://cocoapods.org/pods/Volkswagen)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Volkswagen.svg)](https://cocoapods.org/pods/Volkswagen)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/Volkswagen.svg?style=flat)](https://github.com/cezheng/Volkswagen-Xcode)
 
@@ -57,7 +57,7 @@ class SwiftVolkswagenTests: XCTestCase {
 - iOS 8.0+ / Mac OS X 10.9+
 - Xcode 7.0
 
-Pure Objective-C projects using Cocoapods should have lower requirements since they don't have to `use_frameworks!`.
+Pure Objective-C projects using CocoaPods should have lower requirements since they don't have to `use_frameworks!`.
 
 ### Manually include the source
 - I have tested this yet, but this should work with almost all versions of OS in recent years
@@ -66,7 +66,7 @@ Pure Objective-C projects using Cocoapods should have lower requirements since t
 
 #Installation
 ##CocoaPods
-You can use [Cocoapods](http://cocoapods.org/) to install `Volkswagen-Xcode` by adding it to your to your `Podfile`:
+You can use [CocoaPods](http://cocoapods.org/) to install `Volkswagen-Xcode` by adding it to your to your `Podfile`:
 
 ```ruby
 platform :osx, '10.9'
