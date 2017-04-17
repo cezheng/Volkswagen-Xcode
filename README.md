@@ -1,4 +1,4 @@
-#Volkswagen for Xcode
+# Volkswagen for Xcode
 [![Build Status](https://travis-ci.org/cezheng/Volkswagen-Xcode.svg)](https://travis-ci.org/cezheng/Volkswagen-Xcode)
 
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Volkswagen.svg)](https://cocoapods.org/pods/Volkswagen)
@@ -13,9 +13,9 @@ Volkswagen for Xcode makes failing test cases pass in CI servers.
 This project is inspired by [volkswagen
 ](https://github.com/auchenberg/volkswagen) for javascript, and [phpunit-vw](https://github.com/hmlb/phpunit-vw) for PHP.
 
-#Example
+# Example
 Tests like these will pass.
-##Swift
+## Swift
 
 ```swift
 import XCTest
@@ -31,7 +31,7 @@ class SwiftVolkswagenTests: XCTestCase {
   }
 }
 ```
-##Objective C
+## Objective C
 
 ```objc
 #import <XCTest/XCTest.h>
@@ -64,8 +64,8 @@ Pure Objective-C projects using CocoaPods should have lower requirements since t
 
 > Currently using `Volkswagen-Xcode` on iOS/tvOS only supports Travis CI. More CI environment detection is yet to come. Keep an eye on this [issue](https://github.com/cezheng/Volkswagen-Xcode/issues/1).
 
-#Installation
-##CocoaPods
+# Installation
+## CocoaPods
 You can use [CocoaPods](http://cocoapods.org/) to install `Volkswagen-Xcode` by adding it to your to your `Podfile`:
 
 ```ruby
